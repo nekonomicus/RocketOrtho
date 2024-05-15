@@ -38,7 +38,7 @@ function getRelevantContent(question) {
 }
 
 async function askOpenAI(question, relevantContent) {
-    const apiKey = 'sk-proj-bUFfHqxHctCOGxXAHwyVT3BlbkFJXxPDNd7ONUihP5WMf5oz';
+    const apiKey = '';
     const apiUrl = 'https://api.openai.com/v1/chat/completions';
 
     try {
